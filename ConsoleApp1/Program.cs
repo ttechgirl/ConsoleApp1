@@ -25,9 +25,9 @@ class  PureCsharp
         if(password != null && password.Length >= 6)
         {
             var guid = Guid.NewGuid().ToString("N")[2..6];
-            
-            var generatedPassword = password + "" + guid;
-            Console.WriteLine($"Suggested password is {generatedPassword}");
+            int age = 5;
+            var generatedPassword = password + " " + guid; //string concatenation
+            Console.WriteLine($"Suggested password is {generatedPassword}"); //string interpolation
             return ;
         }
         else
