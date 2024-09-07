@@ -80,7 +80,7 @@ namespace ConsoleApp1
 
             if (birthDate == null)
             {
-                Console.WriteLine("Birthdate cannot be null.");
+                Console.WriteLine("Birth date cannot be null.");
             }
             else
             {
