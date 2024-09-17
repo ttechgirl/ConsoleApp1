@@ -27,16 +27,20 @@ using System.Reflection.Metadata.Ecma335;
 //operators.MatheMatics();
 //operators.Conditions();
 
-Casting casting = new Casting();
-casting.Conditions();
+//Casting casting = new Casting();
+//casting.Conditions();
 
+//Zoo zoo = new Zoo();
+//zoo.Animal();
 
+//Zoo zoo1 = new Zoom(); //polymorphism
+//zoo1.Animal();
 
-Zoo zoo = new Zoo();
-zoo.Animal();
+//Arrays arr = new Arrays();
+//arr.Vehicles();
 
-Zoo zoo1 = new Zoom(); //polymorphism
-zoo1.Animal();
+//Iteration.ForLoop();
+Iteration.WhileLoop();
 
 public class  PureCsharp
 {

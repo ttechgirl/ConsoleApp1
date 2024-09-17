@@ -59,7 +59,7 @@ namespace ConsoleApp1
 
 
             //Age calculator
-            Console.WriteLine("Enter your birth date (eg: 04/12/2009):");
+            Console.WriteLine("Enter your birth date (eg: 12/19/2009):");
             Console.WriteLine("--------------------");
 
             DateTime? birthDate = null;
